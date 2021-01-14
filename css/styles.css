@@ -1,0 +1,131 @@
+body {
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+    font-family: "Oswald",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 500;
+}
+.logo img {
+    min-width: 135px;
+    min-height: 85px;
+    max-width: 214px;
+    max-height: 135px;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    background-color: #bac5cf;
+    color: #0d0d0d;
+}
+
+.main-head nav{
+    margin-left: 700px;
+}
+
+.searchbar {
+    font-family: "Press Start 2P", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-left:500px; 
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.sub-head{
+    display: flex;
+    background-color: #1d2540;
+    color: #0d0d0d;
+}
+
+.cta {
+    background-color: #bac5cf;
+    color: #0d0d0d;
+}
+
+.cta-main{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 4px 15px;
+    border: 5px solid #707070;
+    border-radius: 12px;  
+}
+
+.cta-sub{
+    font-size: 35px;
+    padding: 0px 72px;
+    font-weight: 400;
+    border: 5px solid #707070;
+    border-radius: 12px 12px 0px 0px;
+    
+}
+
+.cta-small {
+    font-size: 32px;
+    padding: 1.5px 17px;
+    border: 2px solid #0d0d0d;
+    border-radius: 5px;
+    
+}
+
+.active {
+    background-color: #030a8c;
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: #1d2540;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+/*Links*/
+a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+/* Home Page*/
+.banner {
+    background-image: url("../images/Banner\ Large.png");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+
+.gamehub-phrase {
+    position: absolute;
+    top: 332px;
+    left: 464px;
+}
+
+.systems-content,
+.best-sellers-content,
+.critically-acclaimed-content {
+    text-align: center;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+}
+
+.systems-content > *,
+.best-sellers-content > *,
+.critically-acclaimed-content > * {
+    flex: 1;
+}
+
+
+
+/*Contact Page*/
+input, 
+select, 
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}

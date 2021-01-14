@@ -5,110 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="descripton" content="Buy, Sell and Pre-order games through Game Hub" />
     <title>Game Hub | Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
    <header>
-       <section>
-        <a href="index.html">Game Hub</a>
-        <nav>
-            <ul>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
+       <section class="main-head">
+            <div class="logo">
+                <a href="index.html"> <img src="images/GameHubLogo.png" alt="Game Hub Logo" />
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Search..." />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/mainheader/contact.html" class="cta cta-main">Contact Us</a></li>
+                    <li><a href="/mainheader/cart.html" class="cta cta-main">Cart</a></li>
+                    <li><a href="/mainheader/login.html" class="cta cta-main">Login</a></li>
+                </ul>
+            </nav>
        </section>
-       <section>
-           <p>Games</p>
-           <p>Pre-Order</p>
-           <p>Used</p>
-           <p>Deals</p>
-           <p>Sell Games</p>
+       <section class="sub-head">
+           <nav>
+               <ul>
+                    <li><a href="/subheader/games.html" class="cta cta-sub">Games</a></li>
+                    <li><a href="/subheader/pre-order.html" class="cta cta-sub">Pre-Order</a></li>
+                    <li><a href="/subheader/used.html" class="cta cta-sub">Used</a></li>
+                    <li><a href="/subheader/deals.html" class="cta cta-sub">Deals</a></li>
+                    <li><a href="/subheader/systems.html" class="cta cta-sub">Systems</a></li>
+                </ul>
+           </nav>
        </section>
-       <section>
-          <p>The Universe of Games</p> 
+       <section class="banner">
+          <div class="gamehub-phrase">
+              <img src="/images/GameHubPhrase.png" alt="Game Hub Phrase">
+          </div>
        </section>
    </header> 
    <main>
-       <section>
+       <section >
            <h1>Systems</h1>
-           <div>
-                <img src="/images/Systems/PlayStation System.png" alt="PlayStation" />
-                <a href="/Games/playstation.html">PlayStation</a>
+           <div class="systems-content">
+                <div>
+                    <a href="/systems/playstation.html"><img src="/images/Systems/PlayStation System.png" alt="PlayStation">
+                    <h2>Playstation</h2>
+                </div>
+                <div>
+                    <a href="/systems/xbox.html"><img src="/images/Systems/Xbox System.png" alt="Xbox" />
+                    <h2>Xbox</h2>
+                </div>
+                <div>
+                    <a href="/systems/nintendo.html"><img src="/images/Systems/Nintendo System.png" alt="Nintendo" />
+                    <h2>Nintendo</h2>
+                </div>
+                <div>
+                    <a href="/systems/pc.html"><img src="/images/Systems/PC System.png" alt="PC" />    
+                    <h2>PC</h2>
+                </div>  
            </div>
-           <div>
-                <img src="/images/Systems/Xbox System.png" alt="Xbox" />
-                <a href="/Games/xbox.html">Xbox</a>
-           </div>
-           <div>
-                <img src="/images/Systems/Nintendo System.png" alt="Nintendo" />
-                <a href="/Games/nintendo.html">Nintendo</a>
-           </div>
-           <div>
-                <img src="/images/Systems/PC System.png" alt="PC" />    
-                <a href="/Games/pc.html">PC</a>
-           </div>
-       </section>
-       <section>
+        </section>
+       <div>
            <h1>Best Sellers</h1>
-           <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a>
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a>
+           <div class="best-sellers-content">
+                <div>
+                    <a href="/games/assassin.html"> <img src="/images/Covers/Assassin.png" alt="Assassin"></a>
+                    <h2>Assassin (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a>
+                </div>
+                <div>
+                    <a href="/games/cyberpunk.html"> <img src="/images/Covers/Cyperpunk.png" alt="Cyberpunk"></a>  
+                    <h2>Cyberpunk (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
+                <div> 
+                    <a href="/games/black.html"> <img src="/images/Covers/Black.png" alt="Black"></a>  
+                    <h2>Black (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
+                <div>
+                    <a href="/games/forge-legend.html"> <img src="/images/Covers/Forge Legend.png" alt="Forge Legend"></a> 
+                    <h2>Forge Legend (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
            </div>
-           <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a>  
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
-            <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a>  
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
-            <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a> 
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
        </section>
-       <section>
-           <h1>Critically Acclaimed</h1>
-           <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a> 
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
-            <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a> 
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
-            <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a> 
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
-            </div>
-            <div>
-                <a href="/minecraft.html"> <img src="/images/Minecraft.jpg" alt="Minecraft"></a> 
-                <h2>Minecraft</h2>
-                <p>Info</p>
-                <p>0$</p>
-                <a href="/cart.html">Add to Cart</a> 
+       <section >
+            <h1>Critically Acclaimed</h1>
+            <div class="critically-acclaimed-content">
+                <div>
+                    <a href="/games/assassin.html"> <img src="/images/Covers/Assassin.png" alt="Assassin"></a>
+                    <h2>Assassin (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a>
+                </div>
+                <div>
+                    <a href="/games/cyberpunk.html"> <img src="/images/Covers/Cyperpunk.png" alt="Cyberpunk"></a>  
+                    <h2>Cyberpunk (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
+                <div> 
+                    <a href="/games/black.html"> <img src="/images/Covers/Black.png" alt="Black"></a>  
+                    <h2>Black (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
+                <div>
+                    <a href="/games/forge-legend.html"> <img src="/images/Covers/Forge Legend.png" alt="Forge Legend"></a> 
+                    <h2>Forge Legend (2020)</h2>
+                    <p>Information about the game</p>
+                    <p>19.99$</p>
+                    <a href="/mainheader/cart.html" class="cta cta-small">Add to Cart</a> 
+                </div>
             </div>
        </section>
    </main>
