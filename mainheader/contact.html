@@ -38,26 +38,34 @@
            </nav>
        </section>
    </header> 
-   <main>
+   <main class="contact">
        <h1>Contact Us</h1>
        <form method="POST">
-           <label for="name">Full Name</label>
-           <input type="text" id="name">
-           <label for="email">Email</label>
-           <input type="email" id="email">
-           <label for="help">What can we help you with?</label>
-           <select id="help" name="Help">
-               <option value="Payment">Payment</option>
-               <option value="Shipping">Shipping</option>
-               <option Value="Status">Status</option>
-               <option value="Returns">Returns</option>
-               <option value="Something Else">Something else</option>
-           </select>
-           <input type="checkbox" id=email-updates>
-           <label for="emil-updates">Sign up for email updates</label>
-           <label for="message">Message</label>
-           <textarea name="message" id="message"></textarea>
-           <input type="submit" value="Send Now" class="cta cta-send" />
+           <div class="form-wrapper">
+            <section>
+                <label for="name">Full Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="help">What can we help you with?</label>
+                <select id="help" name="Help">
+                    <option value="Payment">Payment</option>
+                    <option value="Shipping">Shipping</option>
+                    <option Value="Status">Status</option>
+                    <option value="Returns">Returns</option>
+                    <option value="Something Else">Something else</option>
+                </select>
+                <div>
+                    <input type="checkbox" id=email-updates>
+                    <label for="emil-updates">Sign up for email updates</label>
+                </div>
+           </section>
+           <section>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+           </section> 
+           </div>
+           <input type="submit" value="Send Now" class="cta cta-large" />
        </form>
    </main>
    <footer>Copyright &copy;</footer>

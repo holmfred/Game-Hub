@@ -11,6 +11,10 @@ body {
     max-height: 135px;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 .main-head {
     display: flex;
     align-items: center;
@@ -64,12 +68,42 @@ nav li {
     padding: 1.5px 17px;
     border: 2px solid #0d0d0d;
     border-radius: 5px;
-    
+    max-height: 50px;
+}
+
+.cta-large {
+    width: 200px;
+    height: 40px;
+    font-size: 1.3em;
+    border: 2px solid #707070 ;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+
 }
 
 .active {
     background-color: #030a8c;
     color: #f2f2f2;
+}
+
+.price {
+    font-size: 2em;
+}
+
+.price-align {
+    display: flex;
+}
+
+.price-align > * {
+    flex: 1;
+}
+
+.something {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
 }
 
 footer {
@@ -105,22 +139,6 @@ footer {
     background-image: url("../images/Banners/PC\ Banner.png");
 }
 
-.banner-deals {
-
-}
-
-.banner-games {
-
-}
-
-.banner-pre-order {
-
-}
-
-.banner-used {
-
-}
-
 .banner-systems {
     background-image: url("../images/Banners/Systems\ Banner.png");
 }
@@ -146,6 +164,34 @@ footer {
     flex: 1;
 }
 
+.best-sellers-content,
+.critically-acclaimed-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.game{
+    display: flex;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.game h2 {
+    text-align: left;
+}
+.game-site {
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.game-site >* {
+    flex: 1;
+}
+
+
 /*Links*/
 a{
     text-decoration: none;
@@ -159,4 +205,42 @@ select,
 textarea {
     border: 1px solid #c4c4c4;
     border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+
+textarea {
+    height: 65%;
+}
+
+.contact{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+.form-wrapper{
+    display: flex;
+}
+
+.form-wrapper > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Deals */
+
+.old-price {
+    text-decoration: line-through 3px;
+    font-size: 2em;
+}
+
+.sale {
+    background: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: 2px solid #707070;
+    margin: auto;
 }
